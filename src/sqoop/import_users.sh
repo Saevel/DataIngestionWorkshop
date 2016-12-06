@@ -1,0 +1,1 @@
+sqoop import --username root --password cloudera --connect jdbc:mysql://localhost:3306/WORKSHOP --table USERS --target-dir /Sqoop/Users --as-avrodatafile
